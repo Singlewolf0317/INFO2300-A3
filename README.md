@@ -5,5 +5,5 @@ Instructions:
 1. Install the latest version Apache Tomcat
 2. Run the Tomcat
 3. Run the index
-4. 
+
 License: The project is licensed under the Apache License 2.0. You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form. You could view the details at https://github.com/apache/.github/blob/main/LICENSE.
