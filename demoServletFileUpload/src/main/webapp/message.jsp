@@ -12,5 +12,6 @@
 </head>
 <body>
     <h2>${message}</h2>
+    <h3>The current time is ${time}</h3>
 </body>
 </html>

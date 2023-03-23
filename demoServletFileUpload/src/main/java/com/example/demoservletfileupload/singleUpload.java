@@ -5,6 +5,7 @@ import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
 
 import java.io.IOException;
+import java.time.LocalDateTime;
 
 @WebServlet(name = "singleUpload", value = "/singleUpload")
 @MultipartConfig(
@@ -29,6 +30,7 @@ public class singleUpload extends HttpServlet {
             message = "Error Uploading File: "+ex.getMessage();
         }
         request.setAttribute("message",message);
+        request.setAttribute("time", LocalDateTime.now());
         request.getRequestDispatcher("message.jsp").forward(request,response);
     }
     private String getFileName(Part part){
